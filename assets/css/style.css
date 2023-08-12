@@ -136,20 +136,56 @@ section {
     text-align: center;
 }
 
-.intro h2 {
-    font-size: 55px;
-    color: #18504a;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #e67637;
-     display: inline-block;
-  }
-
   .intro p {
     line-height: 1.7;
     color: #18504a;
     width: 80%;
     font-size: 20px;
      margin: 0 auto;
+  }
+
+  .steps {
+    text-align: center;
+    background: #18504a;
+  }
+
+  .section-title {
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    border-color: #e67637;
+  }
+
+  .primary-color {
+    color: whitesmoke;
+  }
+
+  .secondary-color {
+    color: #18504a;
+  }
+
+  .steps div {
+    margin-bottom: 80px;
+  }
+
+  .steps img {
+    width: 45%;
+    margin: 0 0 15px 0;
+  }
+
+  .steps h3 {
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .steps p {
+    color: whitesmoke;
+    font-size: 23px;
+  }
+
+  .steps span {
+    font-size: 36px;
   }
