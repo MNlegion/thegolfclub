@@ -11,7 +11,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: #ffe497;
+    background-color: #18504a;
 }
 
 header h1 {
@@ -22,12 +22,16 @@ header h1 {
 header h1 a {
     font-family: 'Explora', cursive;
     font-size: 75px;
-    color: #18504a;
+    color: whitesmoke;
 }
 
 header a {
-    color: #e67637;
+    color: whitesmoke;
     text-decoration: none;
+}
+
+header span {
+    font-size: 30px;
 }
 
 header nav {
