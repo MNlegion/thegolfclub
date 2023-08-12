@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #18504a;
+    background-color: whitesmoke;
 }
 
 header {
@@ -85,10 +85,10 @@ section {
 }
 
 .hero-form {
-    background-color: whitesmoke;
+    background-color: #18504a;
     padding: 20px;
     width: 600px;
-    color: #18504a;
+    color: whitesmoke;
     font-weight: bolder;
     border: solid 6px #e67637;
     border-radius: 15px;
@@ -112,11 +112,12 @@ section {
 
 .hero-form button {
     color: #18504a;
-    background-color: #e67637;
+    background-color: whitesmoke;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
+    border-radius: 25px;
 }
 
 .form-input {
