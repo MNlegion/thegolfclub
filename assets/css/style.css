@@ -96,9 +96,9 @@ section {
     font-weight: bolder;
     border: solid 6px #e67637;
     border-radius: 15px;
-    position: absolute;
-    bottom: 50px;
-     right: 20%;
+    position: relative;
+    display: block;
+    text-align: left;
 }
 
 .hero-form h3 {
@@ -263,4 +263,19 @@ section {
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
+  }
+
+  .contact-info h3 {
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+
+  .contact-info a {
+    color: #18504a;
   }
