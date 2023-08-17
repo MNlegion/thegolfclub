@@ -91,14 +91,14 @@ section {
 .hero-form {
     background-color: #18504a;
     padding: 20px;
-    width: 50%;
+    width: 700px;
     color: whitesmoke;
     font-weight: bolder;
     border: solid 6px #e67637;
     border-radius: 15px;
-    position: relative;
-    display: block;
-    text-align: left;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
 
 .hero-form h3 {
@@ -247,7 +247,6 @@ section {
   }
 
   .contact-info {
-    width: 66%;
     margin: 0 auto 30px auto;
     overflow: auto;
   }
