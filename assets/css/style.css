@@ -167,21 +167,22 @@ section {
     color: #18504a;
     width: 80%;
     font-size: 20px;
-     margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .steps {
-    text-align: center;
     background: #18504a;
   }
 
   .section-title {
     font-size: 55px;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
     border-color: #e67637;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
   }
 
   .primary-color {
@@ -217,7 +218,7 @@ section {
   }
 
   .members {
-    text-align: center;
+    
   }
 
   .member {
@@ -255,16 +256,7 @@ section {
     line-height: 1.3;
   }
 
-  .text-left {
-    text-align: left;
-  }
-
-  .text-right {
-    text-align: right;
-  }
-
   .join {
-    text-align: center;
     color: #18504a;
   }
 
@@ -299,4 +291,17 @@ section {
 
   .contact-info a {
     color: #18504a;
+  }
+
+  /* Utility Classes */
+  .text-left {
+    text-align: left;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .flex-row {
+    display: flex;
   }
