@@ -1,45 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
 }
 
 header {
-    padding: 20px 35px;
-    background-color: #18504a;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  padding: 20px 35px;
+  background-color: #18504a;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-    margin: 0;
-    font-weight: bold;
-    font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 header h1 a {
-    font-family: 'Explora', cursive;
-    font-size: 75px;
-    color: whitesmoke;
+  font-family: "Explora", cursive;
+  font-size: 75px;
+  color: whitesmoke;
 }
 
 header a {
-    color: whitesmoke;
-    text-decoration: none;
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 header span {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 header nav {
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
 header nav ul {
@@ -51,62 +51,62 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.55vw;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
 }
 
 footer {
-    font-size: 15px;
-    color: #e67637;
-    background: #18504a;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  font-size: 15px;
+  color: #e67637;
+  background: #18504a;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 footer h2 {
-    color: #e67637;
-    margin: 0;
+  color: #e67637;
+  margin: 0;
 }
 
 footer div {
-    line-height: 1.5;
-    text-align: right;
+  line-height: 1.5;
+  text-align: right;
 }
 
 footer a {
-    text-decoration: none;
-    color: #e67637;
+  text-decoration: none;
+  color: #e67637;
 }
 
 section {
-    padding: 60px;
+  padding: 60px;
 }
 
 /* Hero Style Start */
 
 .hero {
-    background-image: url("../images/Backgroundstripes.png");
-    background-size: contain;
-    background-position: center;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  background-image: url("../images/Backgroundstripes.png");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-form {
-    background-color: #18504a;
-    padding: 20px;
-    color: whitesmoke;
-    font-weight: bolder;
-    border: solid 6px #e67637;
-    border-radius: 15px;
-    width: 40%;
-    margin: 3.5%;
+  background-color: #18504a;
+  padding: 20px;
+  color: whitesmoke;
+  font-weight: bolder;
+  border: solid 6px #e67637;
+  border-radius: 15px;
+  width: 40%;
+  margin: 3.5%;
 }
 
 .hero-cta {
@@ -124,184 +124,187 @@ section {
 }
 
 .hero-form h3 {
-    font-size: 24px;
-    margin: 0;
+  font-size: 24px;
+  margin: 0;
 }
 
 .hero-form p {
-    margin: 5px 0 15px 0;
+  margin: 5px 0 15px 0;
 }
 
 .hero-form label {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .hero-form button {
-    color: #18504a;
-    background-color: whitesmoke;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 25px;
+  color: #18504a;
+  background-color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
 }
 
 .form-input {
-    border: 2px solid #18504a;
-    border-radius: 25px;
-    display: block;
-    padding: 7px 10px;
-    font-size: 16px;
-    color: #18504a;
-    font-weight: bold;
-    width: 70%;
-    margin-bottom: 15px;
+  border: 2px solid #18504a;
+  border-radius: 25px;
+  display: block;
+  padding: 7px 10px;
+  font-size: 16px;
+  color: #18504a;
+  font-weight: bold;
+  width: 70%;
+  margin-bottom: 15px;
 }
 
 .intro {
-    text-align: center;
+  text-align: center;
 }
 
-  .intro p {
-    line-height: 1.7;
-    color: #18504a;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-  }
+.intro p {
+  line-height: 1.7;
+  color: #18504a;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .steps {
-    background: #18504a;
-  }
+.steps {
+  background: #18504a;
+}
 
-  .section-title {
-    font-size: 55px;
-    border-bottom: 3px solid;
-    border-color: #e67637;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-  }
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 5px solid #e67637;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .primary-color {
-    color: whitesmoke;
-  }
+.section-title {
+  font-size: 55px;
+  border-bottom: 3px solid;
+  border-color: #e67637;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
 
-  .secondary-color {
-    color: #18504a;
-  }
+.primary-color {
+  color: whitesmoke;
+}
 
-  .steps div {
-    margin-bottom: 80px;
-  }
+.secondary-color {
+  color: #18504a;
+}
 
-  .steps img {
-    width: 35%;
-    margin: 0 0 15px 0;
-  }
+.step h3 {
+  color: whitesmoke;
+  font-size: 40px;
+}
 
-  .steps h3 {
-    color: whitesmoke;
-    font-size: 40px;
-    margin-top: 10px;
-  }
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: whitesmoke;
+}
 
-  .steps p {
-    color: whitesmoke;
-    font-size: 23px;
-  }
+.step-text p {
+  color: whitesmoke;
+  font-size: 18px;
+}
 
-  .steps span {
-    font-size: 36px;
-  }
+.members {
+}
 
-  .members {
-    
-  }
+.member {
+  width: 66%;
+  margin: 0 auto 30px auto;
+  background-image: url("../images/Backgroundstripes.png");
+  color: #18504a;
+  overflow: auto;
+}
 
-  .member {
-    width: 66%;
-    margin: 0 auto 30px auto;
-    background-image: url("../images/Backgroundstripes.png");
-    color: #18504a;
-    overflow: auto;
-  }
+.member img {
+  width: 35%;
+  float: left;
+}
 
-  .member img {
-    width: 35%;
-    float: left;
-  }
+.member-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
 
-  .member-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
-  }
+.member-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
 
-  .member-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
-  }
+.member-bio h4 {
+  font-weight: lighter;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
 
-  .member-bio h4 {
-    font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
-  }
+.member-bio p {
+  font-size: 17px;
+  line-height: 1.3;
+}
 
-  .member-bio p {
-    font-size: 17px;
-    line-height: 1.3;
-  }
+.join {
+  color: #18504a;
+}
 
-  .join {
-    color: #18504a;
-  }
+.contact-info {
+  margin: 0 auto 30px auto;
+  overflow: auto;
+}
 
-  .contact-info {
-    margin: 0 auto 30px auto;
-    overflow: auto;
-  }
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
 
-  .contact-info iframe {
-    width: 400px;
-    height: 400px;
-  }
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+}
 
-  .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-  }
+.contact-info h3 {
+  font-size: 32px;
+}
 
-  .contact-info h3 {
-    font-size: 32px;
-  }
-  
-  .contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 20px;
-    font-style: normal;
-  }
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
 
-  .contact-info a {
-    color: #18504a;
-  }
+.contact-info a {
+  color: #18504a;
+}
 
-  /* Utility Classes */
-  .text-left {
-    text-align: left;
-  }
+/* Utility Classes */
+.text-left {
+  text-align: left;
+}
 
-  .text-right {
-    text-align: right;
-  }
+.text-right {
+  text-align: right;
+}
 
-  .flex-row {
-    display: flex;
-  }
+.flex-row {
+  display: flex;
+}
