@@ -62,16 +62,17 @@ footer {
     background: #18504a;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer h2 {
-    display: inline;
     color: #e67637;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -88,24 +89,38 @@ section {
 /* Hero Style Start */
 
 .hero {
-    height: 525px;
     background-image: url("../images/Backgroundstripes.png");
     background-size: contain;
     background-position: center;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-form {
     background-color: #18504a;
     padding: 20px;
-    width: 700px;
     color: whitesmoke;
     font-weight: bolder;
     border: solid 6px #e67637;
     border-radius: 15px;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: left;
+  margin: 3.5%;
+  color: #18504a;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 30px;
 }
 
 .hero-form h3 {
