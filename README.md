@@ -13,4 +13,4 @@ Golf Club Management Tool
 ## Contribution
 Made by MNlegion
 
-Test Comment 2.0
+### ©️2017 CNGC, Inc.
