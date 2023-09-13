@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MNlegion/thegolfclub/issues"
   },
-  "homepage": "https://github.com/MNlegion/thegolfclub#readme"
+  "homepage": "https://github.com/MNlegion/thegolfclub#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
